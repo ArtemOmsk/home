@@ -82,7 +82,7 @@ check = Console.ReadLine();
     */
 
 // еще один способ решение последней задачи на нахождения всех четных чисел числа N
-
+/*
 Console.WriteLine("введите четное чилсо ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 2;
@@ -98,3 +98,5 @@ while(current <= num)
     {
        Console.Write("вы ввели число меньше 2, четных положительных чисел в данном диапозоне нет");
     }
+    */
+    
