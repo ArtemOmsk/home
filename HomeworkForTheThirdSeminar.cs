@@ -47,7 +47,7 @@ double distance = Distance(xa, ya, xb, yb, za, zb );
 Console.WriteLine($"Расстояние между точками А и В равно {distance}");
 */
 
-
+/*
 int cube(int num)
 {
   while(num < 0)
@@ -62,3 +62,4 @@ Console.WriteLine("введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int nam = cube(number);
 Console.WriteLine(nam);
+*/
