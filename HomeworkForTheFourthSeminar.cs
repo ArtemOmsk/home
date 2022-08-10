@@ -36,7 +36,7 @@ int nam = SumOfNumbers(number);
 Console.WriteLine(nam);
 */
 //Программа которая задаёт массив из 8 элементов и выводит их на экран.
-
+/*
 int[] SumOfNumbers(int size)
  {
     int[] newArray = new int[size];
@@ -55,3 +55,4 @@ int[] SumOfNumbers(int size)
 
 int[] binaryArray = SumOfNumbers(8);
 ShowArray(binaryArray);
+*/
