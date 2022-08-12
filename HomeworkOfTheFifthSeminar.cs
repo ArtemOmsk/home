@@ -75,7 +75,7 @@ int[] newarray = SumOfNumbers(8, -999, 999);
  */
  
  // Массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
- 
+/*
 double[] arrayRealNumbers = new double[10];
 for (int i = 0; i < arrayRealNumbers.Length; i++ )
 {
@@ -92,3 +92,4 @@ for (int i = 1; i < arrayRealNumbers.Length; i++)
 }
 double decision = maxNumber - minNumber;
 Console.WriteLine($"\nразница между между максимальным ({maxNumber}) и минимальным({minNumber}) элементами: {decision}");
+*/
