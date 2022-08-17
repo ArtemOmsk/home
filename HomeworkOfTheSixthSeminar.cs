@@ -29,7 +29,7 @@ Console.WriteLine($"положительных чисел {counting}");
 */
 
 //Программа которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2
-
+/*
 string LineInter( double a, double b, double aa, double bb)
 {
         string result = string.Empty;
@@ -48,3 +48,4 @@ Console.Write("введите k2 ");
 double k2 = Convert.ToUInt32(Console.ReadLine());
 
 Console.Write(LineInter(k1, b1, k2, b2));
+*/

@@ -53,7 +53,7 @@ void Show2Array(int [,] array)
  //находящихся на главной диагонали (с индексами (0,0); (1;1) и т.д.
 */
 
-
+/*
 int[] SumOfNumbers(int size,int minv, int maxv)
  {
     int[] newArray = new int[size];
@@ -67,7 +67,7 @@ int[,] CCreatRandom2dArray(int n, int m, int min, int max)
 {
     int[,] newArray = new int [n, m];
 
-    for( int i = 0; i < n; i++);
+    for( int i = 0; i < n; i++)
     {
         for( int j = 0; j < m; j++)
         {
@@ -115,4 +115,5 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int [,] array = CCreatRandom2dArray(n, m, min, max);
 int[,] ccreat = CCreat(array);
-Show2Array(ccreat);
+Show2Array(ccreat)
+*/
