@@ -216,3 +216,40 @@ int [,] array = CreatRandom2dArray(n, m, min, max);
 Show2Array(array);
 Show2Array(ChangeRows(array));
 */
+
+/*
+
+int[] SumOfNumbers(int size,int minv, int maxv)
+ {
+    int[] newArray = new int[size];
+
+    for(int i = 0; i < size; i++)
+    newArray[i] = new Random().Next(minv, maxv + 1);
+    return newArray;
+ }
+
+void ShowArray(int[] array)
+
+ {
+    for(int i = 0; i < array.Length; i++)
+    Console.Write(array[i] + " ");
+    Console.WriteLine();
+ }
+
+
+*/
+// метод который сууму отрицательных и подложительных массива.
+/*
+
+int Positive(int[] array )
+{
+    int sum = 0;
+     for(int i = 0; i < array.Length; i++)
+     {
+        if(array[i] > 0) sum = sum + array[i];
+     }
+     return sum;
+   
+}
+*/
+
