@@ -37,10 +37,10 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 double [,] array = CreatRandom2dArray(n, m, min, max);
 Show2Array(array);
-
+*/
 //Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
  // и возвращает значение этого элемента или же указание, что такого элемента нет.
-
+/*
 int[,] CreatRandom2dArray(int rows, int columns, int minv, int maxv)
 {
     int[,] newArray = new int [rows, columns];
@@ -82,38 +82,80 @@ if (m >= array.GetLength(0) || n >= array.GetLength(1))
    Console.WriteLine($" значение ячейки с индексов{m}, {n} в массиве равно {array[m, n]} ");
 */
 
+
+
 //Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
-Console.WriteLine("Enter n:");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter m:");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(" ");
-double [,]arr=new double [n, m];
-double []sum=new double [m];
-Random ran = new Random();
-
-for (int i=0; i<n; i++)
+int[,] CreatRandom2dArray(int rows, int columns, int minv, int maxv)
 {
-    for(int j=0; j<m; j++)
-    {
-        arr[i, j] = ran.Next(0, 10);
+    int[,] newArray = new int [rows, columns];
 
-        Console.Write(arr[i, j] + " ");
+    for( int i = 0; i < rows; i++)
+    {
+        for( int j = 0; j < columns; j++)
+        {
+            newArray[i,j] = new Random().Next(minv, maxv + 1);
+        }
     }
-    Console.WriteLine();
-}
-Console.WriteLine(" ");
+    return newArray;
 
-for (int i=0; i<m; i++)
+}
+
+void Show2Array(int [,] array)
 {
-    for(int j=0; j<n; j++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        sum[i] += arr[j, i];
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + " " );
+        }
+        Console.WriteLine();
     }
 }
 
-for (int i=0; i<m; i++)
+
+void FindAverage(int[,] array)
 {
-    Console.Write((sum[i] / n)  + " ");
+    double sum = 0;
+    for (int i = 0; i < array.GetLength(0); i++)
+    
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        sum +=array[i,j];
+        Console.Write(Math.Round(sum / array.GetLength(0), 2) + ";");
+        sum = 0;
+    }
 }
+int[,] array = CreatRandom2dArray(3, 4, 1,4);
+Console.WriteLine("ваш массив ");
+Show2Array(array);
+
+Console.WriteLine("средние значения");
+FindAverage(array);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
