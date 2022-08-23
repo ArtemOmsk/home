@@ -85,7 +85,7 @@ if (m >= array.GetLength(0) || n >= array.GetLength(1))
 
 
 //Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-
+/*
 int[,] CreatRandom2dArray(int rows, int columns, int minv, int maxv)
 {
     int[,] newArray = new int [rows, columns];
@@ -134,7 +134,7 @@ Console.WriteLine("средние значения");
 FindAverage(array);
 
 
-
+*/
 
 
 
