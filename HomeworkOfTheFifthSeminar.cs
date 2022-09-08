@@ -93,3 +93,22 @@ for (int i = 1; i < arrayRealNumbers.Length; i++)
 double decision = maxNumber - minNumber;
 Console.WriteLine($"\nразница между между максимальным ({maxNumber}) и минимальным({minNumber}) элементами: {decision}");
 */
+/*
+int[] SumOfNumbers(int size,int minv, int maxv)
+ {
+    int[] newArray = new int[size];
+
+    for(int i = 0; i < size; i++)
+    newArray[i] = new Random().Next(minv, maxv + 1);
+    return newArray;
+ }
+
+ void ShowArray(int[] array)
+
+ {
+    for(int i = 0; i < array.Length; i++)
+    Console.Write(array[i] + " ");
+    Console.WriteLine();
+ }
+ */
+ 

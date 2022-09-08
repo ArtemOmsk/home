@@ -109,7 +109,7 @@ void PrintArray(int[,] array)
 }
 */
 //Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
-
+/*
 int InputInt(string output)
 {
     Console.Write(output);
@@ -166,3 +166,7 @@ PrintArray(matrixB);
 Console.WriteLine();
 Console.WriteLine("Произведение матриц А*В");
 PrintArray(matrixC);
+*/
+
+
+
